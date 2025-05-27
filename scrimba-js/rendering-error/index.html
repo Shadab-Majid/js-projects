@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .content {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        img {
+            width: 50%;
+        }
+        button {
+            border: none;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            color: white;
+            font-weight: bold;
+            width: 200px;
+            margin-bottom: 5px;
+            border-radius: 5px;
+        }
+        #btn {
+            background: darkred;
+        }
+        #error {
+            color: darkred;
+        }
+    </style>
+</head>
+<body>
+    <div class="content">
+         <img src="image.png" alt="">
+        <h3>Nike shoe</h3>
+        <button id="btn" onclick="showError()">Purchase - $149</button>
+        <p id="error"></p>
+    </div>
+    <script src="./index.js"></script>
+</body>
+</html>
