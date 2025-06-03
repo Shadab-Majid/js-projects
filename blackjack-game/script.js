@@ -18,6 +18,7 @@ function startGame() {
 
 // render function to render the result and sum and cards
 function renderGame() {
+    //
     cardEl.textContent = 'Cards: ' + cards
 
     // appending the sum to the sum element in ui
