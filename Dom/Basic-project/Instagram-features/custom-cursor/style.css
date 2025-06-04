@@ -31,5 +31,7 @@ html #main .cursor, body #main .cursor {
   height: 50px;
   transform: translate(-50%, -50%);
   border-radius: 50%;
-  background-color: darkred;
+  background-color: #fff;
+  mix-blend-mode: difference;
+  transition: all linear 0.2s;
 }/*# sourceMappingURL=style.css.map */
