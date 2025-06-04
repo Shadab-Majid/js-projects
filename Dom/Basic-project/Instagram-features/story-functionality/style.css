@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Gilory";
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: cyan;
+}
+body #card {
+  height: 450px;
+  width: 300px;
+  border: 1px solid black;
+  background-color: #fff;
+  border-radius: 10px;
+  position: relative;
+  overflow: hidden;
+}
+body #card #stories {
+  width: 100%;
+  height: 120px;
+  border-bottom: 1px solid silver;
+  margin: 20px 0;
+  white-space: nowrap;
+  overflow-x: auto;
+}
+body #card #stories .story {
+  width: 80px;
+  height: 80px;
+  border: solid red;
+  border-radius: 50%;
+  display: inline-block;
+  overflow: hidden;
+  margin: 0 5px;
+}
+body #card #stories .story img {
+  width: 100%;
+  height: 100%;
+  -o-object-position: center;
+     object-position: center;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+body #card #stories::-webkit-scrollbar {
+  display: none;
+}
+body #card .full-screen {
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+  position: absolute;
+  display: none;
+}/*# sourceMappingURL=style.css.map */
