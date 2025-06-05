@@ -68,6 +68,7 @@ body{
 }
 .weather-body img{
     width: 60%;
+    margin-left: 4rem;
 }
 
 .weather-box{
@@ -140,6 +141,7 @@ body{
     color: #6b6b6b;
     margin-block-end: 15px;
 }
+
 .location-not-found img{
     width: 80%;
 }
