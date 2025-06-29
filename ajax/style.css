@@ -1,0 +1,30 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.box {
+  height: 100px;
+  width: 100%;
+  background-color: black;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.box button {
+  background-color: darkred;
+  color: #ffffff;
+  padding: 10px 30px 10px 30px;
+  border: none;
+  font-weight: 600;
+  margin: 1em;
+}
+
+.table {
+  position: absolute;
+  top: 100px;
+}/*# sourceMappingURL=style.css.map */
